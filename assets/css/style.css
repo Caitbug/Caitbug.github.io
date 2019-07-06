@@ -1,0 +1,1715 @@
+@import url("https://fonts.googleapis.com/css?family=Glass+Antiqua|Raleway");
+body {
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+  top: 0px;
+  height: 2em;
+}
+
+.star img {
+  height: 1.5em;
+}
+
+.top > div {
+  padding: 10px;
+  text-align: center;
+}
+
+.col {
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: left;
+  font-size: 2.5rem;
+  vertical-align: top;
+  text-align: center;
+  font-family: "Glass Antiqua", cursive;
+  color: #edddc4;
+}
+
+.content {
+  left: 20px;
+  margin-left: -20px;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+  top: 50%;
+  margin-top: -50px;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+.nameplate {
+  font-family: "Glass Antiqua", cursive;
+  background-color: #0c0c0c;
+  background-clip: content-box;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 100;
+  color: #edddc4;
+}
+
+.tagline {
+  color: #edddc4;
+  background-color: #0c0c0c;
+  font-size: 2em;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  padding-bottom: 2em;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes twirl {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.stars {
+  background: url("http://caitlynchristensen.com/assets/star.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+
+.dots {
+  background-color: #edddc4;
+  border-radius: 50px;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+
+.s1 {
+  height: 34px;
+  right: 4%;
+  top: 10%;
+  width: 34px;
+  -webkit-animation: twirl 46s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d1 {
+  height: 44px;
+  left: 3%;
+  top: 10%;
+  width: 44px;
+  -webkit-animation: twirl 43s linear infinite;
+  -moz-animation: twirl 24s linear infinite;
+  -ms-animation: twirl 22s linear infinite;
+  -o-animation: twirl 28s linear infinite;
+  transition: twirl 35s linear ifinite;
+}
+
+.p1 {
+  height: 10px;
+  left: 11%;
+  top: 1%;
+  width: 10px;
+}
+
+.t1 {
+  height: 13px;
+  right: 5%;
+  top: 34%;
+  width: 13px;
+}
+
+.s2 {
+  height: 32px;
+  right: 8%;
+  top: 20%;
+  width: 32px;
+  -webkit-animation: twirl 40s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d2 {
+  height: 54px;
+  left: 5%;
+  top: 20%;
+  width: 54px;
+  -webkit-animation: twirl 37s linear infinite;
+  -moz-animation: twirl 33s linear infinite;
+  -ms-animation: twirl 28s linear infinite;
+  -o-animation: twirl 25s linear infinite;
+  transition: twirl 32s linear ifinite;
+}
+
+.s2 {
+  right: 23%;
+}
+
+.d2 {
+  left: 18%;
+}
+
+.d2,
+.s2 {
+  top: 16%;
+}
+
+.p2 {
+  height: 6px;
+  left: 9%;
+  top: 8%;
+  width: 6px;
+}
+
+.t2 {
+  height: 13px;
+  right: 23%;
+  top: 67%;
+  width: 13px;
+}
+
+.s3 {
+  height: 53px;
+  right: 5%;
+  top: 30%;
+  width: 53px;
+  -webkit-animation: twirl 22s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d3 {
+  height: 54px;
+  left: 6%;
+  top: 30%;
+  width: 54px;
+  -webkit-animation: twirl 46s linear infinite;
+  -moz-animation: twirl 23s linear infinite;
+  -ms-animation: twirl 45s linear infinite;
+  -o-animation: twirl 22s linear infinite;
+  transition: twirl 32s linear ifinite;
+}
+
+.p3 {
+  height: 10px;
+  left: 29%;
+  top: 29%;
+  width: 10px;
+}
+
+.t3 {
+  height: 12px;
+  right: 21%;
+  top: 64%;
+  width: 12px;
+}
+
+.d3,
+.s3 {
+  animation-direction: reverse;
+}
+
+.s4 {
+  height: 27px;
+  right: 9%;
+  top: 40%;
+  width: 27px;
+  -webkit-animation: twirl 28s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d4 {
+  height: 17px;
+  left: 7%;
+  top: 40%;
+  width: 17px;
+  -webkit-animation: twirl 24s linear infinite;
+  -moz-animation: twirl 45s linear infinite;
+  -ms-animation: twirl 40s linear infinite;
+  -o-animation: twirl 35s linear infinite;
+  transition: twirl 46s linear ifinite;
+}
+
+.s4 {
+  right: 23%;
+}
+
+.d4 {
+  left: 20%;
+}
+
+.d4,
+.s4 {
+  top: 32%;
+}
+
+.p4 {
+  height: 12px;
+  left: 4%;
+  top: 84%;
+  width: 12px;
+}
+
+.t4 {
+  height: 15px;
+  right: 3%;
+  top: 89%;
+  width: 15px;
+}
+
+.d4,
+.s4 {
+  animation-direction: reverse;
+}
+
+.s5 {
+  height: 36px;
+  right: 9%;
+  top: 50%;
+  width: 36px;
+  -webkit-animation: twirl 36s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d5 {
+  height: 55px;
+  left: 5%;
+  top: 50%;
+  width: 55px;
+  -webkit-animation: twirl 29s linear infinite;
+  -moz-animation: twirl 27s linear infinite;
+  -ms-animation: twirl 25s linear infinite;
+  -o-animation: twirl 25s linear infinite;
+  transition: twirl 42s linear ifinite;
+}
+
+.p5 {
+  height: 8px;
+  left: 28%;
+  top: 81%;
+  width: 8px;
+}
+
+.t5 {
+  height: 15px;
+  right: 11%;
+  top: 26%;
+  width: 15px;
+}
+
+.d5,
+.s5 {
+  animation-direction: reverse;
+}
+
+.s6 {
+  height: 18px;
+  right: 6%;
+  top: 60%;
+  width: 18px;
+  -webkit-animation: twirl 25s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d6 {
+  height: 20px;
+  left: 8%;
+  top: 60%;
+  width: 20px;
+  -webkit-animation: twirl 23s linear infinite;
+  -moz-animation: twirl 28s linear infinite;
+  -ms-animation: twirl 41s linear infinite;
+  -o-animation: twirl 35s linear infinite;
+  transition: twirl 21s linear ifinite;
+}
+
+.s6 {
+  right: 14%;
+}
+
+.d6 {
+  left: 17%;
+}
+
+.d6,
+.s6 {
+  top: 48%;
+}
+
+.p6 {
+  height: 6px;
+  left: 31%;
+  top: 75%;
+  width: 6px;
+}
+
+.t6 {
+  height: 11px;
+  right: 24%;
+  top: 20%;
+  width: 11px;
+}
+
+.d6,
+.s6 {
+  animation-direction: reverse;
+}
+
+.s7 {
+  height: 29px;
+  right: 6%;
+  top: 70%;
+  width: 29px;
+  -webkit-animation: twirl 31s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d7 {
+  height: 53px;
+  left: 10%;
+  top: 70%;
+  width: 53px;
+  -webkit-animation: twirl 35s linear infinite;
+  -moz-animation: twirl 38s linear infinite;
+  -ms-animation: twirl 44s linear infinite;
+  -o-animation: twirl 37s linear infinite;
+  transition: twirl 42s linear ifinite;
+}
+
+.p7 {
+  height: 14px;
+  left: 23%;
+  top: 56%;
+  width: 14px;
+}
+
+.t7 {
+  height: 6px;
+  right: 27%;
+  top: 8%;
+  width: 6px;
+}
+
+.d7,
+.s7 {
+  animation-direction: reverse;
+}
+
+.s8 {
+  height: 49px;
+  right: 1%;
+  top: 80%;
+  width: 49px;
+  -webkit-animation: twirl 48s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d8 {
+  height: 25px;
+  left: 9%;
+  top: 80%;
+  width: 25px;
+  -webkit-animation: twirl 39s linear infinite;
+  -moz-animation: twirl 39s linear infinite;
+  -ms-animation: twirl 37s linear infinite;
+  -o-animation: twirl 45s linear infinite;
+  transition: twirl 26s linear ifinite;
+}
+
+.s8 {
+  right: 20%;
+}
+
+.d8 {
+  left: 17%;
+}
+
+.d8,
+.s8 {
+  top: 64%;
+}
+
+.p8 {
+  height: 13px;
+  left: 27%;
+  top: 52%;
+  width: 13px;
+}
+
+.t8 {
+  height: 14px;
+  right: 30%;
+  top: 47%;
+  width: 14px;
+}
+
+.d8,
+.s8 {
+  animation-direction: reverse;
+}
+
+.s9 {
+  height: 49px;
+  right: 3%;
+  top: 90%;
+  width: 49px;
+  -webkit-animation: twirl 25s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d9 {
+  height: 23px;
+  left: 1%;
+  top: 90%;
+  width: 23px;
+  -webkit-animation: twirl 36s linear infinite;
+  -moz-animation: twirl 50s linear infinite;
+  -ms-animation: twirl 40s linear infinite;
+  -o-animation: twirl 24s linear infinite;
+  transition: twirl 39s linear ifinite;
+}
+
+.p9 {
+  height: 6px;
+  left: 31%;
+  top: 17%;
+  width: 6px;
+}
+
+.t9 {
+  height: 11px;
+  right: 18%;
+  top: 37%;
+  width: 11px;
+}
+
+.s10 {
+  height: 51px;
+  right: 7%;
+  top: 100%;
+  width: 51px;
+  -webkit-animation: twirl 43s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d10 {
+  height: 27px;
+  left: 4%;
+  top: 100%;
+  width: 27px;
+  -webkit-animation: twirl 30s linear infinite;
+  -moz-animation: twirl 36s linear infinite;
+  -ms-animation: twirl 39s linear infinite;
+  -o-animation: twirl 24s linear infinite;
+  transition: twirl 39s linear ifinite;
+}
+
+.s10 {
+  right: 18%;
+}
+
+.d10 {
+  left: 24%;
+}
+
+.d10,
+.s10 {
+  top: 80%;
+}
+
+.p10 {
+  height: 15px;
+  left: 9%;
+  top: 34%;
+  width: 15px;
+}
+
+.t10 {
+  height: 7px;
+  right: 3%;
+  top: 56%;
+  width: 7px;
+}
+
+.s11 {
+  height: 51px;
+  right: 1%;
+  top: 110%;
+  width: 51px;
+  -webkit-animation: twirl 29s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d11 {
+  height: 39px;
+  left: 6%;
+  top: 110%;
+  width: 39px;
+  -webkit-animation: twirl 27s linear infinite;
+  -moz-animation: twirl 21s linear infinite;
+  -ms-animation: twirl 28s linear infinite;
+  -o-animation: twirl 23s linear infinite;
+  transition: twirl 41s linear ifinite;
+}
+
+.p11 {
+  height: 12px;
+  left: 5%;
+  top: 53%;
+  width: 12px;
+}
+
+.t11 {
+  height: 15px;
+  right: 16%;
+  top: 50%;
+  width: 15px;
+}
+
+.d11,
+.s11 {
+  animation-direction: reverse;
+}
+
+.s12 {
+  height: 23px;
+  right: 3%;
+  top: 120%;
+  width: 23px;
+  -webkit-animation: twirl 33s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d12 {
+  height: 41px;
+  left: 10%;
+  top: 120%;
+  width: 41px;
+  -webkit-animation: twirl 26s linear infinite;
+  -moz-animation: twirl 43s linear infinite;
+  -ms-animation: twirl 24s linear infinite;
+  -o-animation: twirl 49s linear infinite;
+  transition: twirl 25s linear ifinite;
+}
+
+.s12 {
+  right: 17%;
+}
+
+.d12 {
+  left: 11%;
+}
+
+.d12,
+.s12 {
+  top: 96%;
+}
+
+.p12 {
+  height: 10px;
+  left: 22%;
+  top: 17%;
+  width: 10px;
+}
+
+.t12 {
+  height: 13px;
+  right: 20%;
+  top: 31%;
+  width: 13px;
+}
+
+.d12,
+.s12 {
+  animation-direction: reverse;
+}
+
+.s13 {
+  height: 23px;
+  right: 6%;
+  top: 130%;
+  width: 23px;
+  -webkit-animation: twirl 31s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d13 {
+  height: 20px;
+  left: 3%;
+  top: 130%;
+  width: 20px;
+  -webkit-animation: twirl 49s linear infinite;
+  -moz-animation: twirl 41s linear infinite;
+  -ms-animation: twirl 40s linear infinite;
+  -o-animation: twirl 26s linear infinite;
+  transition: twirl 26s linear ifinite;
+}
+
+.p13 {
+  height: 15px;
+  left: 35%;
+  top: 87%;
+  width: 15px;
+}
+
+.t13 {
+  height: 11px;
+  right: 11%;
+  top: 11%;
+  width: 11px;
+}
+
+.s14 {
+  height: 33px;
+  right: 8%;
+  top: 140%;
+  width: 33px;
+  -webkit-animation: twirl 26s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d14 {
+  height: 30px;
+  left: 6%;
+  top: 140%;
+  width: 30px;
+  -webkit-animation: twirl 37s linear infinite;
+  -moz-animation: twirl 44s linear infinite;
+  -ms-animation: twirl 50s linear infinite;
+  -o-animation: twirl 46s linear infinite;
+  transition: twirl 21s linear ifinite;
+}
+
+.s14 {
+  right: 23%;
+}
+
+.d14 {
+  left: 23%;
+}
+
+.d14,
+.s14 {
+  top: 112%;
+}
+
+.p14 {
+  height: 10px;
+  left: 35%;
+  top: 47%;
+  width: 10px;
+}
+
+.t14 {
+  height: 8px;
+  right: 6%;
+  top: 83%;
+  width: 8px;
+}
+
+.s15 {
+  height: 19px;
+  right: 6%;
+  top: 150%;
+  width: 19px;
+  -webkit-animation: twirl 24s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d15 {
+  height: 20px;
+  left: 10%;
+  top: 150%;
+  width: 20px;
+  -webkit-animation: twirl 40s linear infinite;
+  -moz-animation: twirl 42s linear infinite;
+  -ms-animation: twirl 44s linear infinite;
+  -o-animation: twirl 22s linear infinite;
+  transition: twirl 46s linear ifinite;
+}
+
+.p15 {
+  height: 11px;
+  left: 26%;
+  top: 65%;
+  width: 11px;
+}
+
+.t15 {
+  height: 13px;
+  right: 10%;
+  top: 79%;
+  width: 13px;
+}
+
+.d15,
+.s15 {
+  animation-direction: reverse;
+}
+
+.s16 {
+  height: 42px;
+  right: 5%;
+  top: 160%;
+  width: 42px;
+  -webkit-animation: twirl 44s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d16 {
+  height: 43px;
+  left: 9%;
+  top: 160%;
+  width: 43px;
+  -webkit-animation: twirl 37s linear infinite;
+  -moz-animation: twirl 42s linear infinite;
+  -ms-animation: twirl 47s linear infinite;
+  -o-animation: twirl 38s linear infinite;
+  transition: twirl 50s linear ifinite;
+}
+
+.s16 {
+  right: 14%;
+}
+
+.d16 {
+  left: 11%;
+}
+
+.d16,
+.s16 {
+  top: 128%;
+}
+
+.p16 {
+  height: 10px;
+  left: 10%;
+  top: 50%;
+  width: 10px;
+}
+
+.t16 {
+  height: 6px;
+  right: 24%;
+  top: 49%;
+  width: 6px;
+}
+
+.s17 {
+  height: 51px;
+  right: 6%;
+  top: 170%;
+  width: 51px;
+  -webkit-animation: twirl 45s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d17 {
+  height: 40px;
+  left: 9%;
+  top: 170%;
+  width: 40px;
+  -webkit-animation: twirl 44s linear infinite;
+  -moz-animation: twirl 32s linear infinite;
+  -ms-animation: twirl 35s linear infinite;
+  -o-animation: twirl 22s linear infinite;
+  transition: twirl 31s linear ifinite;
+}
+
+.p17 {
+  height: 11px;
+  left: 14%;
+  top: 78%;
+  width: 11px;
+}
+
+.t17 {
+  height: 6px;
+  right: 11%;
+  top: 59%;
+  width: 6px;
+}
+
+.s18 {
+  height: 33px;
+  right: 1%;
+  top: 180%;
+  width: 33px;
+  -webkit-animation: twirl 47s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d18 {
+  height: 37px;
+  left: 10%;
+  top: 180%;
+  width: 37px;
+  -webkit-animation: twirl 32s linear infinite;
+  -moz-animation: twirl 48s linear infinite;
+  -ms-animation: twirl 24s linear infinite;
+  -o-animation: twirl 44s linear infinite;
+  transition: twirl 33s linear ifinite;
+}
+
+.s18 {
+  right: 16%;
+}
+
+.d18 {
+  left: 24%;
+}
+
+.d18,
+.s18 {
+  top: 144%;
+}
+
+.p18 {
+  height: 10px;
+  left: 30%;
+  top: 13%;
+  width: 10px;
+}
+
+.t18 {
+  height: 6px;
+  right: 11%;
+  top: 77%;
+  width: 6px;
+}
+
+.d18,
+.s18 {
+  animation-direction: reverse;
+}
+
+.s19 {
+  height: 34px;
+  right: 1%;
+  top: 190%;
+  width: 34px;
+  -webkit-animation: twirl 48s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d19 {
+  height: 37px;
+  left: 6%;
+  top: 190%;
+  width: 37px;
+  -webkit-animation: twirl 48s linear infinite;
+  -moz-animation: twirl 35s linear infinite;
+  -ms-animation: twirl 29s linear infinite;
+  -o-animation: twirl 30s linear infinite;
+  transition: twirl 44s linear ifinite;
+}
+
+.p19 {
+  height: 14px;
+  left: 9%;
+  top: 72%;
+  width: 14px;
+}
+
+.t19 {
+  height: 7px;
+  right: 24%;
+  top: 21%;
+  width: 7px;
+}
+
+.d19,
+.s19 {
+  animation-direction: reverse;
+}
+
+.s20 {
+  height: 23px;
+  right: 2%;
+  top: 200%;
+  width: 23px;
+  -webkit-animation: twirl 26s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d20 {
+  height: 24px;
+  left: 7%;
+  top: 200%;
+  width: 24px;
+  -webkit-animation: twirl 45s linear infinite;
+  -moz-animation: twirl 46s linear infinite;
+  -ms-animation: twirl 29s linear infinite;
+  -o-animation: twirl 25s linear infinite;
+  transition: twirl 26s linear ifinite;
+}
+
+.s20 {
+  right: 17%;
+}
+
+.d20 {
+  left: 22%;
+}
+
+.d20,
+.s20 {
+  top: 160%;
+}
+
+.p20 {
+  height: 11px;
+  left: 31%;
+  top: 85%;
+  width: 11px;
+}
+
+.t20 {
+  height: 14px;
+  right: 7%;
+  top: 43%;
+  width: 14px;
+}
+
+.s21 {
+  height: 48px;
+  right: 6%;
+  top: 210%;
+  width: 48px;
+  -webkit-animation: twirl 23s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d21 {
+  height: 25px;
+  left: 2%;
+  top: 210%;
+  width: 25px;
+  -webkit-animation: twirl 28s linear infinite;
+  -moz-animation: twirl 29s linear infinite;
+  -ms-animation: twirl 50s linear infinite;
+  -o-animation: twirl 32s linear infinite;
+  transition: twirl 32s linear ifinite;
+}
+
+.p21 {
+  height: 11px;
+  left: 3%;
+  top: 56%;
+  width: 11px;
+}
+
+.t21 {
+  height: 14px;
+  right: 11%;
+  top: 83%;
+  width: 14px;
+}
+
+.d21,
+.s21 {
+  animation-direction: reverse;
+}
+
+.s22 {
+  height: 40px;
+  right: 5%;
+  top: 220%;
+  width: 40px;
+  -webkit-animation: twirl 34s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d22 {
+  height: 33px;
+  left: 9%;
+  top: 220%;
+  width: 33px;
+  -webkit-animation: twirl 38s linear infinite;
+  -moz-animation: twirl 33s linear infinite;
+  -ms-animation: twirl 41s linear infinite;
+  -o-animation: twirl 42s linear infinite;
+  transition: twirl 29s linear ifinite;
+}
+
+.s22 {
+  right: 11%;
+}
+
+.d22 {
+  left: 13%;
+}
+
+.d22,
+.s22 {
+  top: 176%;
+}
+
+.p22 {
+  height: 12px;
+  left: 5%;
+  top: 58%;
+  width: 12px;
+}
+
+.t22 {
+  height: 13px;
+  right: 7%;
+  top: 98%;
+  width: 13px;
+}
+
+.d22,
+.s22 {
+  animation-direction: reverse;
+}
+
+.s23 {
+  height: 36px;
+  right: 1%;
+  top: 230%;
+  width: 36px;
+  -webkit-animation: twirl 32s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d23 {
+  height: 26px;
+  left: 8%;
+  top: 230%;
+  width: 26px;
+  -webkit-animation: twirl 44s linear infinite;
+  -moz-animation: twirl 21s linear infinite;
+  -ms-animation: twirl 39s linear infinite;
+  -o-animation: twirl 34s linear infinite;
+  transition: twirl 36s linear ifinite;
+}
+
+.p23 {
+  height: 12px;
+  left: 33%;
+  top: 50%;
+  width: 12px;
+}
+
+.t23 {
+  height: 11px;
+  right: 22%;
+  top: 98%;
+  width: 11px;
+}
+
+.d23,
+.s23 {
+  animation-direction: reverse;
+}
+
+.s24 {
+  height: 41px;
+  right: 2%;
+  top: 240%;
+  width: 41px;
+  -webkit-animation: twirl 29s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d24 {
+  height: 41px;
+  left: 7%;
+  top: 240%;
+  width: 41px;
+  -webkit-animation: twirl 43s linear infinite;
+  -moz-animation: twirl 42s linear infinite;
+  -ms-animation: twirl 46s linear infinite;
+  -o-animation: twirl 32s linear infinite;
+  transition: twirl 45s linear ifinite;
+}
+
+.s24 {
+  right: 11%;
+}
+
+.d24 {
+  left: 13%;
+}
+
+.d24,
+.s24 {
+  top: 192%;
+}
+
+.p24 {
+  height: 15px;
+  left: 12%;
+  top: 27%;
+  width: 15px;
+}
+
+.t24 {
+  height: 14px;
+  right: 20%;
+  top: 7%;
+  width: 14px;
+}
+
+.d24,
+.s24 {
+  animation-direction: reverse;
+}
+
+.s25 {
+  height: 41px;
+  right: 5%;
+  top: 250%;
+  width: 41px;
+  -webkit-animation: twirl 25s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d25 {
+  height: 38px;
+  left: 6%;
+  top: 250%;
+  width: 38px;
+  -webkit-animation: twirl 22s linear infinite;
+  -moz-animation: twirl 46s linear infinite;
+  -ms-animation: twirl 29s linear infinite;
+  -o-animation: twirl 28s linear infinite;
+  transition: twirl 47s linear ifinite;
+}
+
+.p25 {
+  height: 11px;
+  left: 1%;
+  top: 67%;
+  width: 11px;
+}
+
+.t25 {
+  height: 15px;
+  right: 26%;
+  top: 18%;
+  width: 15px;
+}
+
+.d25,
+.s25 {
+  animation-direction: reverse;
+}
+
+.s26 {
+  height: 40px;
+  right: 8%;
+  top: 260%;
+  width: 40px;
+  -webkit-animation: twirl 29s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d26 {
+  height: 21px;
+  left: 1%;
+  top: 260%;
+  width: 21px;
+  -webkit-animation: twirl 34s linear infinite;
+  -moz-animation: twirl 28s linear infinite;
+  -ms-animation: twirl 24s linear infinite;
+  -o-animation: twirl 37s linear infinite;
+  transition: twirl 40s linear ifinite;
+}
+
+.s26 {
+  right: 25%;
+}
+
+.d26 {
+  left: 15%;
+}
+
+.d26,
+.s26 {
+  top: 208%;
+}
+
+.p26 {
+  height: 7px;
+  left: 9%;
+  top: 60%;
+  width: 7px;
+}
+
+.t26 {
+  height: 10px;
+  right: 21%;
+  top: 34%;
+  width: 10px;
+}
+
+.d26,
+.s26 {
+  animation-direction: reverse;
+}
+
+.s27 {
+  height: 27px;
+  right: 7%;
+  top: 270%;
+  width: 27px;
+  -webkit-animation: twirl 27s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d27 {
+  height: 45px;
+  left: 6%;
+  top: 270%;
+  width: 45px;
+  -webkit-animation: twirl 45s linear infinite;
+  -moz-animation: twirl 32s linear infinite;
+  -ms-animation: twirl 36s linear infinite;
+  -o-animation: twirl 45s linear infinite;
+  transition: twirl 29s linear ifinite;
+}
+
+.p27 {
+  height: 10px;
+  left: 39%;
+  top: 53%;
+  width: 10px;
+}
+
+.t27 {
+  height: 12px;
+  right: 31%;
+  top: 52%;
+  width: 12px;
+}
+
+.s28 {
+  height: 29px;
+  right: 2%;
+  top: 280%;
+  width: 29px;
+  -webkit-animation: twirl 44s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d28 {
+  height: 46px;
+  left: 8%;
+  top: 280%;
+  width: 46px;
+  -webkit-animation: twirl 39s linear infinite;
+  -moz-animation: twirl 28s linear infinite;
+  -ms-animation: twirl 45s linear infinite;
+  -o-animation: twirl 24s linear infinite;
+  transition: twirl 34s linear ifinite;
+}
+
+.s28 {
+  right: 20%;
+}
+
+.d28 {
+  left: 14%;
+}
+
+.d28,
+.s28 {
+  top: 224%;
+}
+
+.p28 {
+  height: 11px;
+  left: 14%;
+  top: 78%;
+  width: 11px;
+}
+
+.t28 {
+  height: 15px;
+  right: 15%;
+  top: 51%;
+  width: 15px;
+}
+
+.d28,
+.s28 {
+  animation-direction: reverse;
+}
+
+.s29 {
+  height: 43px;
+  right: 10%;
+  top: 290%;
+  width: 43px;
+  -webkit-animation: twirl 49s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d29 {
+  height: 42px;
+  left: 6%;
+  top: 290%;
+  width: 42px;
+  -webkit-animation: twirl 24s linear infinite;
+  -moz-animation: twirl 24s linear infinite;
+  -ms-animation: twirl 41s linear infinite;
+  -o-animation: twirl 45s linear infinite;
+  transition: twirl 43s linear ifinite;
+}
+
+.p29 {
+  height: 9px;
+  left: 20%;
+  top: 51%;
+  width: 9px;
+}
+
+.t29 {
+  height: 6px;
+  right: 2%;
+  top: 82%;
+  width: 6px;
+}
+
+.d29,
+.s29 {
+  animation-direction: reverse;
+}
+
+.s30 {
+  height: 33px;
+  right: 1%;
+  top: 300%;
+  width: 33px;
+  -webkit-animation: twirl 34s linear infinite;
+  -moz-animation: twirl 12s linear infinite;
+  -ms-animation: twirl 12s linear infinite;
+  -o-animation: twirl 12s linear infinite;
+  transition: twirl 12s linear ifinite;
+}
+
+.d30 {
+  height: 17px;
+  left: 3%;
+  top: 300%;
+  width: 17px;
+  -webkit-animation: twirl 43s linear infinite;
+  -moz-animation: twirl 32s linear infinite;
+  -ms-animation: twirl 38s linear infinite;
+  -o-animation: twirl 31s linear infinite;
+  transition: twirl 36s linear ifinite;
+}
+
+.s30 {
+  right: 19%;
+}
+
+.d30 {
+  left: 24%;
+}
+
+.d30,
+.s30 {
+  top: 240%;
+}
+
+.p30 {
+  height: 13px;
+  left: 34%;
+  top: 11%;
+  width: 13px;
+}
+
+.t30 {
+  height: 8px;
+  right: 28%;
+  top: 77%;
+  width: 8px;
+}
+
+.d30,
+.s30 {
+  animation-direction: reverse;
+}
+
+.downwards {
+  width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  transition: border 1s ease;
+}
+
+.start > .text > a > .downwards {
+  border-top: 20px solid #edddc4;
+}
+
+.start > .text > a > .downwards:hover {
+  border-top: 20px solid #179db5;
+}
+
+.about > .text > a > .downwards {
+  border-top: 20px solid #046a73;
+}
+
+.about > .text > a > .downwards:hover {
+  border-top: 20px solid #772277;
+}
+
+.design > .text > a > .downwards {
+  border-top: 20px solid #046a73;
+}
+
+.design > .text > a > .downwards:hover {
+  border-top: 20px solid #179db5;
+}
+
+.dev > .text > a > .downwards {
+  border-top: 20px solid #046a73;
+}
+
+.dev > .text > a > .downwards:hover {
+  border-top: 20px solid #da4167;
+}
+
+.star a, .star a:visited, .star a:active {
+  color: #edddc4;
+}
+
+.star {
+  background-color: #0c0c0c;
+  color: #edddc4;
+}
+
+.about a, .about a:visited, .about a:active {
+  color: #046a73;
+}
+
+.about {
+  background-color: #179db5;
+  color: #046a73;
+}
+
+.design a, .design a:visited, .design a:active {
+  color: #330033;
+}
+
+.design {
+  background-color: #772277;
+  color: #330033;
+}
+
+.dev a, .dev a:visited, .dev a:active {
+  color: #afa89c;
+}
+
+.dev {
+  background-color: #edddc4;
+  color: #afa89c;
+}
+
+.contact a, .contact a:visited, .contact a:active {
+  color: #a71034;
+}
+
+.contact {
+  background-color: #da4167;
+  color: #a71034;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+#portfolio > .content > .text {
+  position: relative;
+  top: auto;
+  margin-top: 0px;
+  transform: none;
+}
+
+#portfolio > .content {
+  height: auto;
+}
+
+.portfolio-head {
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.portfolio {
+  clear: both;
+}
+
+.addt {
+  padding-top: 50px;
+}
+
+.col.sample {
+  background-color: #222;
+  flex: 1.5;
+}
+
+.col.specs {
+  color: #edddc4;
+  flex: 1;
+  text-align: left;
+  padding: 5% 2%;
+}
+
+.sample-img {
+  width: 100%;
+}
+
+.col {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 0.75em;
+}
+
+.no-center {
+  align-items: start;
+}
+
+.box {
+  min-height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
