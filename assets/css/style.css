@@ -77,3 +77,4 @@ a:hover{color:#fff;}
 .sample-title{font-size:2em; font-family:'Glass Antiqua', serif; margin-bottom:10px; font-weight:400;}
 
 .sample-img > img{width:100%; margin: 10px 0 10px 0;}
+.cols > .sample-img {max-width:50%}
