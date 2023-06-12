@@ -1,0 +1,543 @@
+/*COLORS*/
+$nightSky: #0c0c0c;
+$starBright: #edddc4;
+$starBrightest:#fffaf2;
+$starShadow: #4d4d4d;
+$daySky: #48b2c5;
+$dayShadow: #00383d;
+$duskSky: #772277;
+$duskShadow: #330033;
+$rubySky: #e7819a;
+$rubyShadow: #4e0717;
+
+body {
+  background-color: $nightSky;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Glass+Antiqua|Raleway");
+
+html {
+  overflow-x: hidden;
+}
+ul {padding:0}
+//Navigation
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+  top: 0;
+
+
+  .star img {
+    height: 1.5em;
+  }
+
+  .top>div {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .bot {
+    width: 100%;
+    display: flex;
+    font-family: "Glass Antiqua", cursive;
+    color: $starBright;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    background-color: #fff;
+    text-transform: uppercase;
+
+    .col {
+      flex: 1;
+      min-width: 50%;
+      text-align: center;
+    }
+
+    .col:hover {
+      filter: brightness(1.1);
+    }
+
+    @media only screen and (min-width: 768px) {
+      .col {
+        min-width: 33%;
+
+      }
+    }
+  }
+
+}
+
+//Global Content
+
+.content {
+  left: 20px;
+  margin-left: -20px;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+  padding: 2em;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+}
+.about.wrapper {height:unset;}
+.nameplate {
+  font-family: "Glass Antiqua", cursive;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 100;
+}
+
+.downwards {
+  width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  transition: border 1s ease;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+//Nav
+
+.star {
+  .text {
+    background: radial-gradient(circle, $nightSky 0%, $nightSky 3%, rgba(0, 0, 0, 0) 60%);
+  }
+
+  .tagline {
+    color: $starBright;
+    font-size: 2em;
+  }
+}
+
+.start>.text>a>.downwards {
+  border-top: 20px solid $starBright;
+}
+
+.start>.text>a>.downwards:hover {
+  border-top: 20px solid $daySky;
+}
+
+.about>.text>a>.downwards {
+  border-top: 20px solid $dayShadow;
+}
+
+.about>.text>a>.downwards:hover {
+  border-top: 20px solid $starBright;
+}
+
+.design>.text>a>.downwards {
+  border-top: 20px solid $dayShadow;
+}
+
+.design>.text>a>.downwards:hover {
+  border-top: 20px solid $daySky;
+}
+
+.dev>.text>a>.downwards {
+  border-top: 20px solid $dayShadow;
+}
+
+.dev>.text>a>.downwards:hover {
+  border-top: 20px solid $rubySky;
+}
+
+.star > .text > .nameplate{ background-color:rgba(0, 0, 0, .5)}
+.star {
+  background-color: $nightSky;
+  color: $starBrightest;
+  
+  a {
+    display: block;
+  }
+
+  a,
+  a:active,
+  a:visited {
+    color: $starBright;
+  }
+
+  a:hover {
+    filter: brightness(1.1)
+  }
+
+}
+
+.about {
+  background-color: $daySky;
+  color: $dayShadow;
+
+
+}
+
+.design a,
+.design a:active,
+.design a:visited {
+  color: $duskShadow;
+}
+
+.design {
+  background-color: $duskSky;
+  color: $duskShadow;
+}
+
+.dev a,
+.dev a:active,
+.dev a:visited {
+  color: $starShadow;
+}
+
+.dev {
+  background-color: $starBright;
+  color: $starShadow;
+}
+
+.contact a,
+.contact a:active,
+.contact a:visited {
+  color: $rubyShadow;
+}
+
+.contact {
+  background-color: $rubySky;
+  color: $rubyShadow;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: $starBright;
+  font-family: "Raleway";
+}
+
+//Content
+.aboutInfo {
+  border-radius: 20px;
+  margin-top: 2em;
+  background-color: $starBright;
+  color: $nightSky;
+  padding: 20px;
+  max-width:90%
+}
+
+.bio {
+  padding: 20px;
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bio h3 {
+  margin-top: 0;
+  font-family: 'Glass Antiqua'
+}
+
+.bio.techstack {
+  border-top: 4px dotted $nightSky;
+  flex-direction: column;
+}
+
+.techstack>ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 600px;
+}
+
+.techstack>ul>li {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px dotted $nightSky;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.bioTagline {
+  max-width: 400px;
+}
+
+
+//projects menus
+.clouds .aboutInfo {  background-color:rgb(248 239 224); margin-top:0}
+.clouds .text {height:unset;}
+.projects {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+
+  .project {margin-left:auto; margin-right:auto;    
+    align-items: center;
+    
+    flex-direction: column;}
+  .projectsMenu ul {
+    list-style: none;
+    font-size: 2em;
+    font-family: 'Glass Antiqua';
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    padding-right:20px;
+    border-right:3px dotted $nightSky;
+    .activeProject, li:hover {
+      font-weight: 900;
+      border-bottom: 2px dotted $nightSky
+    }
+    li {padding:20px}
+  }
+
+  .projectsInfo {
+    flex: 1;
+    max-width: 100%;
+    padding:20px;
+    .project {
+      
+      display: none;
+    }
+
+    .activeProject {
+      display: flex;
+    }
+  }
+
+}
+.project{max-width:650px;}
+.mockup {font-style:italic; display:block;}
+
+.splide__slide__container {text-align:center; max-width: 640px;}
+.splide__slide__container > img {margin-bottom:1em; max-width:640px; display:block;}
+.splide {margin-bottom:2em; margin-left:auto; margin-right:auto}
+.splide__pagination--ttb {right: -1.5em !important;}
+.splide__arrow {background-color:$nightSky; color:$starBright}
+.splide__arrow svg {fill:$starBright}
+.splide__pagination__page.is-active {background-color:$daySky}
+.splide__pagination__page {background-color:$nightSky}
+.splide__arrow {bottom:0%; top:unset; }
+.slideimg{max-width:90%; margin-bottom:2em; margin-left:auto; margin-right:auto;}
+#carousel-heading {text-align: center;}
+.contact > .text {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: center; font-size:2em; }
+.contact > .text > a {color: $rubyShadow; margin: 0 .5em;}
+@media only screen and (max-width: 1065px) {
+  .projects {  align-items: center;}
+  .projects .projectsMenu ul {
+   width:100%;
+       flex-direction: row;
+       border-right:0;
+       padding-right:0;
+       padding-bottom:2em;
+       border-bottom:3px dotted $nightSky;
+       flex-wrap:wrap; justify-content: space-between;
+     }
+     .splide__arrow--next {right:3em;}
+     .splide__slide__container {text-align:center; max-width: 90%;}
+.splide__slide__container > img {margin-bottom:1em; width:100%;}
+.splide__pagination--ttb {display:none;}}
+h2 a, h2 a:visited {color:$nightSky}
+//Pretty Things
+.stars {
+  background: url("http://caitlynchristensen.com/assets/star.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+
+.dots {
+  background-color: $starBright;
+  border-radius: 50px;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+
+.dark-star {
+  filter: invert(100%) sepia(10%) saturate(0%) hue-rotate(0deg) brightness(30%) contrast(100%);
+}
+
+
+//Ugly Math for Pretty Things
+
+$cloudPos: random(10) + 5%;
+
+
+.c1,
+.c2 {
+  position: absolute;
+  top: $cloudPos;
+}
+
+.c3,
+.c4 {
+  position: absolute;
+  top: $cloudPos + 75;
+  right: 0;
+}
+
+.cloud:nth-child(odd) {
+  margin-top: -3%;
+  margin-left: 5%;
+}
+
+@for $i from 1 through 30 {
+
+  //stars
+  //split into .s = right, and .d, left just to make sure there's a
+  //good distribution on both sides.
+  .s#{$i} {
+    $size: random(40)+10px;
+    $twirl: (random(30) + 20s);
+    height: $size;
+    right: random(50) + 0%;
+    top: $i * 3 + 0%;
+    width: $size;
+    -webkit-animation: twirl $twirl linear infinite;
+    -moz-animation: twirl $twirl linear infinite;
+    -ms-animation: twirl $twirl linear infinite;
+    -o-animation: twirl $twirl linear infinite;
+    transition: twirl $twirl linear infinite;
+    animation: twirl $twirl linear infinite;
+  }
+
+  .d#{$i} {
+    $size: random(40)+15px;
+    $twirl: (random(30) + 20s);
+    height: $size;
+    left: random(50) + 0%;
+    top: $i * 3 + 0%;
+    width: $size;
+    -webkit-animation: twirl $twirl linear infinite;
+    -moz-animation: twirl $twirl linear infinite;
+    -ms-animation: twirl $twirl linear infinite;
+    -o-animation: twirl $twirl linear infinite;
+    transition: twirl $twirl linear infinite;
+    animation: twirl $twirl linear infinite;
+  }
+
+  @if $i % 2==0 {
+    .s#{$i} {
+      right: 25 + random(15) + 0%;
+    }
+
+    .d#{$i} {
+      left: 25 + random(15) + 0%;
+    }
+
+    .d#{$i},
+    .s#{$i} {
+      top: $i * 8 + 0%;
+    }
+  }
+
+  //dots
+  .p#{$i} {
+    $size: random(10)+5px;
+
+    height: $size;
+    left: random(50) + 0%;
+    top: random(98) + 0%;
+    width: $size;
+  }
+
+  .t#{$i} {
+    $size: random(10)+5px;
+
+    height: $size;
+    right: random(50) + 0%;
+    top: random(98) + 0%;
+    width: $size;
+  }
+
+  @if random(10) % 2==0 {
+
+    .d#{$i},
+    .s#{$i} {
+      animation-direction: reverse;
+    }
+  }
+
+  @if $i % 2==0 {
+    .c#{$i} {
+      width: 60%;
+    }
+  }
+
+  @else {
+    .c#{$i} {
+      width: 50%;
+    }
+  }
+
+  .c#{$i} {
+    height: random(10) + 8%;
+    background-color: $starBright;
+    border-radius: 200px;
+  }
+
+  $e: 0;
+
+  @if $e < 2 {
+    $e: $e +1;
+
+    .c#{$i} {
+      float: right;
+    }
+  }
+}
+.contact, .contact > .text {height:auto;}
+//Animations
+@keyframes twirl {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
