@@ -104,7 +104,7 @@ ul {padding:0}
   width: 100%;
   height: 100vh;
 }
-.about.wrapper {height:unset;}
+.about.wrapper {height:unset; min-height:100vh;}
 .nameplate {
   font-family: "Glass Antiqua", cursive;
   margin-bottom: 10px;
