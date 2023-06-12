@@ -12,14 +12,22 @@ $rubyShadow: #4e0717;
 
 body {
   background-color: $nightSky;
-  width: 100%;
+  width: 100vw;
+  min-width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  font-size:16px;
+  position:absolute;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+  font-size:14px;
+  }
+}
 @import url("https://fonts.googleapis.com/css?family=Glass+Antiqua|Raleway");
-
+.container, .content, .navigation, .wrapper {width:100vw; min-width: 100%; overflow-x:hidden;}
 html {
   overflow-x: hidden;
 }
@@ -27,7 +35,7 @@ ul {padding:0}
 //Navigation
 .navigation {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 11;
   top: 0;
 
@@ -46,7 +54,7 @@ ul {padding:0}
     display: flex;
     font-family: "Glass Antiqua", cursive;
     color: $starBright;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
@@ -76,17 +84,15 @@ ul {padding:0}
 //Global Content
 
 .content {
-  left: 20px;
-  margin-left: -20px;
   height: 100vh;
   position: relative;
   scroll-behavior: smooth;
+  margin-top:5em;
 }
 
 .wrapper {
   position: relative;
   height: 100vh;
-  padding: 2em;
 }
 
 .text {
