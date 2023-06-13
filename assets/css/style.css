@@ -76,6 +76,7 @@ ul {
   position:relative
 }
 
+#star {max-height:110vh; overflow-y:hidden;}
 .wrapper {
     height: 100vh;
   position:relative
