@@ -73,10 +73,12 @@ ul {
   height: 100vh;  
   scroll-behavior: smooth;
   margin-top: 5em;
+  position:relative
 }
 
 .wrapper {
     height: 100vh;
+  position:relative
 }
 
 .text {
